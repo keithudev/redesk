@@ -25,6 +25,14 @@
       "presentation": {
         "hidden": true
       }
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "CLI Debug",
+      "program": "${workspaceFolder}/app/build/Debug/redeskcli.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}"
     }
   ],
   "compounds": [
