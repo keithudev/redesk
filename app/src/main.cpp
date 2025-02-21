@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 #include <SDL3/SDL.h>
-#include "server.h"
+#include "Server.h"
+#include "Client.h"
 
 int main(int argc, char* argv[]) {
     if(argc < 2) {
@@ -16,6 +17,10 @@ int main(int argc, char* argv[]) {
 
     if (option == "--stream") {
         startServer();
+    }
+
+    if (option == "--join") {
+        joinRoom();
     }
      
     
