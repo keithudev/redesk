@@ -16,11 +16,13 @@ int main(int argc, char* argv[]) {
 
 
     if (option == "--stream") {
-        startServer();
+        printf("Starting streaming...\n"); 
+        startServer(); 
     }
 
     if (option == "--join") {
-        joinRoom();
+        printf("Starting client...\n"); 
+        joinRoom(); 
     }
      
     
